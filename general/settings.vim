@@ -1,0 +1,23 @@
+syntax enable
+set updatetime=300
+set timeoutlen=100
+set relativenumber number	
+set ruler
+set showcmd
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set title
+set path+=**
+set wildmenu
+set mouse=a
+set splitbelow
+set splitright
+set incsearch
+set encoding=utf-8
+set hidden
+set clipboard+=unnamedplus
+set expandtab
+set t_Co=256
+set background=dark
+colorscheme gruvbox
