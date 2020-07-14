@@ -31,6 +31,13 @@ let g:which_key_map['q'] = [ ':q!'                        , 'hard quit']
 
 " Group mappings
 
+let g:which_key_map.s = {
+      \ 'name' : '+spell_check' ,
+      \ 't' : [':set spell!'                         , 'toggle'],
+      \ 'e' : [':set spelllang=en'                   , 'set en'],
+      \ 'i' : [':set spelllang=it'                   , 'set it'],
+      \ }
+
 let g:which_key_map.c = {
       \ 'name' : '+code' ,
       \ 'c' : ['<Plug>Commentary'                    , 'comment'],
@@ -42,6 +49,7 @@ let g:which_key_map.l = {
       \ 'name' : '+latex' ,
       \ 'c' : [':CocCommand latex.Build'             , 'compile'],
       \ }
+      " \ 'c' : [':w<CR>:! pdflatex "%:t"<CR>'         , 'compile'],
 
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")

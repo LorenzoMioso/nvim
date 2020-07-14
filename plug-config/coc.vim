@@ -10,6 +10,8 @@
     \ 'coc-sh',
     \ 'coc-texlab',
     \ 'coc-explorer',
+    \ 'coc-git',
+    \ 'coc-prettier',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
