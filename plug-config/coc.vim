@@ -12,6 +12,7 @@
     \ 'coc-explorer',
     \ 'coc-git',
     \ 'coc-prettier',
+    \ 'coc-pairs',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.

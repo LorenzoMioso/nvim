@@ -36,6 +36,9 @@ let g:which_key_map.s = {
       \ 't' : [':set spell!'                         , 'toggle'],
       \ 'e' : [':set spelllang=en'                   , 'set en'],
       \ 'i' : [':set spelllang=it'                   , 'set it'],
+      \ 'n' : [']s'                                  , 'next word'],
+      \ 'p' : ['[s'                                  , 'previous word'],
+      \ 'z' : ['z='                                  , 'correct word'],
       \ }
 
 let g:which_key_map.c = {
