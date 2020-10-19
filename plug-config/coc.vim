@@ -13,6 +13,7 @@
     \ 'coc-git',
     \ 'coc-prettier',
     \ 'coc-pairs',
+    \ 'coc-markdownlint',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
