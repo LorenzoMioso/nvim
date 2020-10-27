@@ -52,7 +52,6 @@ let g:which_key_map.l = {
       \ 'name' : '+latex' ,
       \ 'c' : [':CocCommand latex.Build'             , 'compile'],
       \ }
-      " \ 'c' : [':w<CR>:! pdflatex "%:t"<CR>'         , 'compile'],
 
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")

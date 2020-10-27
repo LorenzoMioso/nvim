@@ -8,6 +8,10 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
+
   // latex
-  "latex.build.onSave": true
+  "latex.build.onSave": true,
+
+  // java
+  "java.home": "/usr/lib/jvm/java-14-openjdk"
 }
