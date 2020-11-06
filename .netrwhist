@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/lore/Documenti/latex/University of Nottingham PhD Thesis Template/0-abstract'
