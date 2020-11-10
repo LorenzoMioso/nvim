@@ -10,7 +10,7 @@
   },
 
   // latex
-  "latex.build.onSave": true,
+  "latex.build.onSave": false,
 
   // java
   "java.home": "/usr/lib/jvm/java-14-openjdk"
