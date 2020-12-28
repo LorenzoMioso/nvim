@@ -14,6 +14,7 @@
     \ 'coc-prettier',
     \ 'coc-pairs',
     \ 'coc-markdownlint',
+    \ 'coc-lua',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.

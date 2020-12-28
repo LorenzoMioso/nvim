@@ -1,4 +1,5 @@
 syntax enable
+set termguicolors
 set updatetime=300
 set timeoutlen=100
 set relativenumber number	
