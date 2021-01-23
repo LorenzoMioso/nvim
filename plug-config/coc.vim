@@ -15,6 +15,7 @@
     \ 'coc-pairs',
     \ 'coc-markdownlint',
     \ 'coc-lua',
+    \ 'coc-snippets',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
