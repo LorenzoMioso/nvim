@@ -13,5 +13,5 @@
   "latex.build.onSave": false,
 
   // java
-  "java.home": "/usr/lib/jvm/java-14-openjdk"
+  "java.home": "/usr/lib/jvm/java-15-openjdk"
 }
