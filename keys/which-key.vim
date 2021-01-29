@@ -53,5 +53,10 @@ let g:which_key_map.l = {
       \ 'c' : [':CocCommand latex.Build'             , 'compile'],
       \ }
 
+let g:which_key_map.f = {
+      \ 'name' : '+file' ,
+      \ 's' : [':sort'        , 'sort lines'],
+      \ }
+
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
