@@ -26,8 +26,8 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 " Single mappings
 let g:which_key_map['d'] = [ ':bd'                        , 'delete buffer']
-let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
 let g:which_key_map['q'] = [ ':q!'                        , 'hard quit']
+let g:which_key_map['r'] = [ ':Ranger'                    , 'Ranger']
 
 " Group mappings
 
@@ -54,8 +54,15 @@ let g:which_key_map.l = {
       \ }
 
 let g:which_key_map.f = {
-      \ 'name' : '+file' ,
-      \ 's' : [':sort'        , 'sort lines'],
+      \ 'name' : '+FZF' ,
+      \ 'f' : [':FZF'                                , 'find file'],
+      \ 'r' : [':Rg'                                 , 'rip grep'],
+      \ }
+
+let g:which_key_map.b = {
+      \ 'name' : '+buffer' ,
+      \ 's' : [':sort'                               , 'sort lines'],
+      \ 'd' : [':bd'                                 , 'delete buffer'],
       \ }
 
 " Register which key map

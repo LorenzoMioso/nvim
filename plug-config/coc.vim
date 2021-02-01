@@ -9,7 +9,6 @@
     \ 'coc-vimlsp',
     \ 'coc-sh',
     \ 'coc-texlab',
-    \ 'coc-explorer',
     \ 'coc-git',
     \ 'coc-prettier',
     \ 'coc-pairs',

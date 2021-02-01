@@ -16,3 +16,5 @@ inoremap <Up> <nop>
 inoremap <Down> <nop>
 inoremap <Left> <nop>
 inoremap <Right> <nop>
+
+let g:ranger_map_keys = 0
