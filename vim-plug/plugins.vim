@@ -16,11 +16,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'honza/vim-snippets'
-    Plug 'francoiscabrol/ranger.vim'
     Plug 'rbgrouleff/bclose.vim'
     Plug 'voldikss/vim-floaterm'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 call plug#end()
 
