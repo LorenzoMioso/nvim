@@ -15,6 +15,7 @@
     \ 'coc-markdownlint',
     \ 'coc-lua',
     \ 'coc-snippets',
+    \ 'coc-tsserver',
     \ ]
 
 " Use tab for trigger completion with characters ahead and navigate.
