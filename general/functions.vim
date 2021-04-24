@@ -1,2 +1,2 @@
 " treat lex files as c files "
-autocmd BufEnter *.l :setlocal filetype=c
+" autocmd BufEnter *.l :setlocal filetype=c
