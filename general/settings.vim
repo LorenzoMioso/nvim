@@ -1,4 +1,5 @@
 syntax enable
+set colorcolumn=80
 set termguicolors
 set updatetime=300
 set timeoutlen=100
